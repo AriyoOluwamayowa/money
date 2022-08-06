@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{  
+    width: auto;
+    background-image: linear-gradient(to top right, blue, rgb(255, 20, 110)   );
+    
+     }
+
+.body {
+    background-color: white;
+    height: 80vh;
+    
+    display: flex;
+    flex-direction: row;
+    border-radius: 10px;
+    align-items: center;
+    margin-left: 70px;
+    margin-right: 70px;
+    justify-content: space-around;
+    margin-top: 230px;
+    margin-bottom: 230px;
+    background-color: white;
+}
+
+#Email-id {
+    background-color: rgb(211, 206, 206);
+    border-radius: 35px;
+    height: 29px;
+    color: white;
+    border-width: 1px;
+    border-style: hidden;
+    display: flex;
+    margin-bottom: 5px;
+    
+}
+
+ 
+#password {
+    
+    background-color: rgb(211, 206, 206);
+    border-radius: 35px;
+    height: 29px;
+    color: white;
+    border-width: 1px;
+    border-style: hidden;
+    display: flex;
+}
+
+
+.square2{
+    background-color: white;
+    justify-content: space-around;
+
+    width: 80wh;
+
+}
+
+.square1{
+    background-color: white;
+    
+}
+
+.login{
+    background-color: white;
+    background-color: green;
+    width: 175px;
+    color: white;
+    border-radius: 35px;
+    height: 29px;
+    border-style: hidden;
+    border-width: 1px;
+    margin-bottom: 5px;
+    
+}
+
+.h6{
+    background-color: white;
+    align-items: center;
+    font-weight: lighter;
+    margin-block-start: 0.1cm;
+    justify-content: center;
+}
+
+.my-image {
+    height: 150px;
+    width: 150px;
+    clip-path: circle();
+    
+    
+}
+ 
+.user-login {
+    background-color: white;
+    text-align: center;
+}
+
+.square1 {
+    width: 200px;
+    height: 200px;
+    background-color:rgb(211, 206, 206);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    clip-path: circle();
+    box-shadow: 0 10px 10px 0px ;
+    
+}
+
+.error {
+    color: red;
+}
